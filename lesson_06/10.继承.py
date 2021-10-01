@@ -17,6 +17,7 @@ class Animal():
     def sleep(self):
         print('动物睡觉')
 
+
 # 父类中的所有方法都会被子类继承，包括特殊方法，也可以重写特殊方法
 class Dog(Animal):
 
@@ -41,7 +42,6 @@ class Dog(Animal):
         print('狗跑···')
 
 
-d = Dog('旺财',3)
+d = Dog('旺财', 3)
 d.name = '小黑'
 print(d.name, d.age)
-
